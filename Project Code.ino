@@ -271,7 +271,9 @@ void LineFollower()
       Serial.println(Lleft);
       Stop();
     }
-
+  delay(15); //  كل ما يزيد العربية تبقي اسرع سرعة العربية في اللتراكنج
+    Stop();
+     
   }
 
 }
